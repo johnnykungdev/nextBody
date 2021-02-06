@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.background {
+    width: 100%;
+    position: absolute;
+}
+
+.background img {
+    width: 100%;
+    filter: brightness(60%);
+}
+
+header {
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: 'Dancing Script', cursive;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 10em;
+    text-align: center;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 3em;
+    text-align: center;
+}
+
+.animation {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    z-index: 500;
+}
+
+.gallery {
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+
+.wrapper {
+    width: 900px;
+    height: 2000px;
+}
+
+.artist {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.artist.one {
+    background-image: url('../images/tattooArtist1.jpg');
+    filter: grayscale(50%)
+}
+
+.artist.two {
+    background-image: url('../images/tattooArtist2.jpg')
+}
+
+.content {
+    background-color: white;
+    width: 200px;
+    position: relative;
+    top: 200px;
+}
+
+.works {
+    width: 1200px;
+    height: 200px;
+}
