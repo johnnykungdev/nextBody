@@ -1,6 +1,95 @@
-/*
- yo someone add in the nav bar
-*/
+/* Nav Bar */
+nav{
+    font-family: "Bebas Neue";
+    font-size: 1.5em;
+    display: flex;
+    background-color: #282828;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+nav > ul > li{
+    display: inline;
+    list-style: none;
+}
+
+nav > ul > li > a {
+    color: #BA9F5C;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 1.5em;
+    padding: 0;
+
+    
+}
+
+
+input[type=text] {
+    border: none;
+    height: 30px;
+    width: 75px;
+    color: #BA9F5C;
+    background-color: #282828; 
+}
+
+input[type=text]:focus{
+    outline: none !important;
+    border-color: #BA9F5C;
+    box-shadow: 0 0 10px #BA9F5C;
+
+}
+
+/* .logo img{
+    width: 5em;
+} */
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    font-family: "Bebas Neue";
+    background-color: #282828;
+    color: #BA9F5C;
+    padding: 16px;
+    font-size: 0.85em;
+    border: none;
+  }
+
+
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #282828;
+   min-width: 160px;
+   font-size: 0.85em;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+
+.dropdown-content a {
+    color: #BA9F5C;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content a:hover {
+    background-color: #b8b09e;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #282828;
+}
+
+/* ///////////////////////////////// */
 
 h1 {
     text-align: center;
