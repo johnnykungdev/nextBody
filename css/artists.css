@@ -1,0 +1,10 @@
+h1 {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.desc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5% 5%;
+}
