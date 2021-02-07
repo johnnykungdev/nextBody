@@ -1,0 +1,13 @@
+/*
+ yo someone add in the nav bar
+*/
+
+h1 {
+    text-align: center;
+}
+
+.desc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5% 5%;
+}
