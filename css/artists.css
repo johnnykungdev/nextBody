@@ -32,16 +32,15 @@ nav > ul > li > a {
     margin: 0 1.5em;
     padding: 0;
 
-    
-}
 
+}
 
 input[type=text] {
     border: none;
     height: 30px;
     width: 75px;
     color: #BA9F5C;
-    background-color: #282828; 
+    background-color: #282828;
 }
 
 input[type=text]:focus{
@@ -49,6 +48,10 @@ input[type=text]:focus{
     border-color: #BA9F5C;
     box-shadow: 0 0 10px #BA9F5C;
 
+}
+
+a {
+    color: white;
 }
 
 /* .logo img{
@@ -111,4 +114,9 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5% 5%;
+
+    width: 95%;
+
+    margin-left: auto;
+    margin-right: auto;
 }
