@@ -6,7 +6,6 @@ var images = ["url(img/banner.jpg)",
             ]; 
 var time = 4000; 
 
-
 function changeImage() {
     var el = document.getElementById('img');
     el.style.backgroundImage = images[i];
