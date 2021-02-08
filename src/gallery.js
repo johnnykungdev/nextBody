@@ -10,3 +10,5 @@
 //         gallery.appendChild(newDiv)
 //     }
 // })
+
+//need to added event listeners
