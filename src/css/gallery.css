@@ -207,9 +207,11 @@ img:hover {
     grid-row: 2 / 4;
 }
 
-/* .image.three {
-    grid-row: 2 / 4;
-} */
+.image.three {
+    grid-column: 3 /5 ;
+    grid-row: 5 / 6;
+
+}
 
 .image.four {
     grid-row: 3 / 5;
