@@ -107,7 +107,7 @@ input[type=text]:focus{
 
 
 header {
-    height: 100%;
+    height: 70%;
     background-image: url('../images/galleryBackground.jpg');
     background-size: cover;
     background-position: center center;
