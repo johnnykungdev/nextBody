@@ -17,6 +17,10 @@ nav{
     width: 100%;
 }
 
+nav > ul > li > a:hover {
+    color: #b8b09e;
+  }
+
 
 nav > ul > li{
     display: inline;
@@ -66,6 +70,10 @@ input[type=text]:focus{
     font-size: 0.85em;
     border: none;
   }
+
+.dropbtn:hover{
+    color: #b8b09e;
+}
 
 
 

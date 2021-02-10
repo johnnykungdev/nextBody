@@ -17,10 +17,11 @@ nav{
     background-color: #282828;
     justify-content: space-around;
     width: 100%;
-    position: sticky;
-    top: 0;
-
 }
+
+nav > ul > li > a:hover {
+    color: #b8b09e;
+  }
 
 
 nav > ul > li{
@@ -71,6 +72,10 @@ input[type=text]:focus{
     font-size: 0.85em;
     border: none;
   }
+
+.dropbtn:hover{
+    color: #b8b09e;
+}
 
 
 
