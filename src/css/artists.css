@@ -18,7 +18,16 @@ nav{
     background-color: #282828;
     justify-content: space-around;
     width: 100%;
+
 }
+
+nav h1{
+    font-family: "Dancing Script", "cursive";
+    color: #b8b09e;
+    font-size: 1.5em;
+}
+
+
 
 nav > ul > li > a:hover {
     color: #b8b09e;
@@ -36,7 +45,6 @@ nav > ul > li > a {
     text-decoration: none;
     margin: 0 1.5em;
     padding: 0;
-
     
 }
 
