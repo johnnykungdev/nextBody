@@ -188,3 +188,7 @@ h2 {
     margin-right: auto;
     
 }
+
+h1 div a:active{
+    color: #b8b09e;
+}
