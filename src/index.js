@@ -20,3 +20,4 @@ class Map {
 
 const map = new Map()
 map.showInfo()
+
